@@ -1,4 +1,4 @@
 def call(){
   sh "docker compose down || true"
-  sh "docker compose -d"
+  sh "docker compose up -d"
 }
